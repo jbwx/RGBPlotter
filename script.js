@@ -25,9 +25,9 @@ editor.$blockScrolling = Infinity;
 const defaultJsCode = `// x and y range from 0 – 1000
 // r, g, b should be from between 0 – 255
 
-r = abs(tan(tan(pow(abs(sin(((y+500)/500)*1.5+tan(((x+500)/500)*0.6)*0.4))+0.001,log(abs(sin(((y+500)/500)*1.5+tan(((x+500)/500)*0.6)*0.4)+sin(((x+500)/500)*1.5+tan(((y+500)/500)*0.6)*0.4))+1.001))*2.0)*10.0))*50;
-g = abs(tan(tan(pow(abs(sin(((y+500)/500)*1.5+tan(((x+500)/500)*0.6)*0.4))+0.001,log(abs(sin(((y+500)/500)*1.5+tan(((x+500)/500)*0.6)*0.4)+sin(((x+500)/500)*1.5+tan(((y+500)/500)*0.6)*0.4))+1.001))*2.0)*10.0+PI/3.0))*50;
-b = abs(tan(tan(pow(abs(sin(((y+500)/500)*1.5+tan(((x+500)/500)*0.6)*0.4))+0.001,log(abs(sin(((y+500)/500)*1.5+tan(((x+500)/500)*0.6)*0.4)+sin(((x+500)/500)*1.5+tan(((y+500)/500)*0.6)*0.4))+1.001))*2.0)*10.0+(2.0*PI)/3.0))*50;`;
+r = abs(tan(tan(pow(abs(sin((((y/2) )/500)*1.7+tan((((x/2) )/500)*1)*1))+10,log(abs(sin((((y/2) )/500)*1.7+tan((((x/2) )/500)*1)*1)+sin((((x/2) )/500)*tan((((y/2) )/500)*1)*1))+1))*1.7)*400))*50;
+g = abs(tan(tan(pow(abs(sin((((y/2) )/500)*1.7+tan((((x/2) )/500)*1)*1))+10,log(abs(sin((((y/2) )/500)*1.7+tan((((x/2) )/500)*1)*1)+sin((((x/2) )/500)*tan((((y/2) )/500)*1)*1))+1))*1.7)*400+PI/3.0))*50;
+b = abs(tan(tan(pow(abs(sin((((y/2) )/500)*1.7+tan((((x/2) )/500)*1)*1))+10,log(abs(sin((((y/2) )/500)*1.7+tan((((x/2) )/500)*1)*1)+sin((((x/2) )/500)*tan((((y/2) )/500)*1)*1))+1))*1.7)*400+(1.7*PI)/3.0))*50;`;
 
 // Store original console functions for internal use if needed during silent test
 const _trueConsole = {
