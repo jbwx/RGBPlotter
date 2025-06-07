@@ -1,6 +1,6 @@
 # RGB Plotter
 
-jacobwestra.com/RGBPlotter[https://jacobwestra.com/RGBPlotter]
+[jacobwestra.com/RGBPlotter](https://jacobwestra.com/RGBPlotter)
 
 Graph any (x,y) => (r,g,b) function on 1000x1000 pixels. In javascript.
 
