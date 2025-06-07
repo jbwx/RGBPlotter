@@ -2,7 +2,7 @@
 
 [jacobwestra.com/RGBPlotter](https://jacobwestra.com/RGBPlotter)
 
-Graph any (x,y) => (r,g,b) function on 1000x1000 pixels. In javascript.
+Graph any (x,y) -> (r,g,b) function on 1000x1000 pixels. In javascript.
 
 Share the code via URL, or download as PNG.
 
